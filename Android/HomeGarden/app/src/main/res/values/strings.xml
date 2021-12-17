@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">HomeGarden</string>
+    <string name="plantRecyclerTitle">My Plants</string>
+    <string name="plantName">plantName</string>
+    <string name="plantImage">plantImage</string>
+    <string name="plantToString"> PlantToString </string>
+    <string name="plantNameCreate">plantNameCreate</string>
+    <string name="imageDescription">Image of the plant in CreateActivity</string>
+    <string name="createPlantButton">Create Plan!</string>
+    <string name="amount_of_water">Amount of Water</string>
+    <string name="frequency">Frequency</string>
+    <string name="go_ahead_and_pick_a_colour_for_my_pot">Go ahead and pick a colour for my pot!</string>
+    <string name="colourCreate">Colour</string>
+    <string name="checkMark">✓</string>
+    <string name="go_ahead_and_pick_a_colour_for_me">Go ahead and pick a colour for me</string>
+
+    <!--    Plant Names-->
+    <string-array name="plantNames">
+        <item>Pedro</item>
+        <item>Julia</item>
+        <item>Ferdinand</item>
+        <item>Elizabeth</item>
+        <item>Nazar</item>
+        <item>Lana</item>
+        <item>Leo</item>
+        <item>Stacey</item>
+        <item>Chad</item>
+        <item>Ashleigh</item>
+        <item>Sebastian</item>
+    </string-array>
+    <!--    Plant Colour-->
+    <string-array name="plantColour">
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Teal</item>
+        <item>Purple</item>
+        <item>Orange</item>
+        <item>Blue</item>
+    </string-array>
+
+</resources>

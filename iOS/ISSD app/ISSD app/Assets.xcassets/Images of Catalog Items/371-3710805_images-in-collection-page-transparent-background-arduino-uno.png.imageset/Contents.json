@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "371-3710805_images-in-collection-page-transparent-background-arduino-uno.png.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plant_customization_page_two"
+    tools:context=".CreateStepTwoActivity">
+
+    <TextView
+        android:id="@+id/plantNameCreateTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plantNameCreate"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNameGL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/bottomNameGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="232dp"
+        android:layout_height="232dp"
+        android:contentDescription="@string/imageDescription"
+        app:layout_constraintBottom_toTopOf="@+id/bottomImageGL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottomNameGL"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/wavyplant" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="780px"
+        android:layout_height="190px"
+        android:background="@drawable/custom_corners"
+        android:fontFamily="@font/brawler"
+        android:shadowRadius="25"
+        android:soundEffectsEnabled="false"
+        android:text="“Remind Yourself to  water your precious Pedro  from here and there”"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/editTextWaterAmount"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.743" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/bottomImageGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+
+    <EditText
+        android:id="@+id/editTextWaterAmount"
+        android:layout_width="780px"
+        android:layout_height="116px"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Amount of water"
+        android:inputType="number"
+        android:textColor="#61040303"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextWateringFrequency"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/editTextWateringFrequency"
+        android:layout_width="780px"
+        android:layout_height="116px"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/frequency"
+        android:inputType="number"
+        android:textColor="#61000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextWaterAmount" />
+
+    <Button
+        android:id="@+id/finishPlant"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="7"
+        android:text="@string/checkMark"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNameGL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

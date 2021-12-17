@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plant_customization_page_one"
+    tools:context=".CreateActivity">
+
+    <Button
+        android:id="@+id/proceedToStepTwo"
+        android:layout_width="55dp"
+        android:layout_height="147px"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="7"
+        android:text="✓"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/plantNameCreate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/plantNameCreate"
+    android:textSize="25sp"
+    app:layout_constraintBottom_toTopOf="@+id/bottomNameGL"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toStartOf="parent"/>
+
+    <Spinner
+        android:id="@+id/colourSpinner"
+        android:layout_width="780px"
+        android:layout_height="190px"
+        android:layout_marginBottom="52dp"
+        android:animateLayoutChanges="false"
+        android:background="@drawable/custom_slidder"
+        android:entries="@array/plantColour"
+        android:hapticFeedbackEnabled="true"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/bottomNameGL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <ImageView
+        android:id="@+id/plantImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/imageDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plantNameCreate"
+        android:src="@drawable/staticplant" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:fontFamily="@font/montserrat"
+        android:includeFontPadding="true"
+        android:text="@string/colourCreate"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plantImage" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="165dp"
+        android:layout_marginEnd="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/plantImage"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bottomNameGL"
+        app:layout_constraintVertical_bias="0.407"
+        app:srcCompat="@drawable/ic_arrow_left" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="70dp"
+        android:layout_height="165dp"
+        android:layout_marginEnd="9dp"
+        android:rotation="181"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/plantImage"
+        app:layout_constraintTop_toTopOf="@+id/bottomNameGL"
+        app:layout_constraintVertical_bias="0.407"
+        app:srcCompat="@drawable/ic_arrow_left" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="780px"
+        android:layout_height="116px"
+        android:background="@drawable/custom_corners"
+        android:fontFamily="@font/brawler"
+        android:shadowRadius="25"
+        android:soundEffectsEnabled="false"
+        android:text="@string/go_ahead_and_pick_a_colour_for_me"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/colourSpinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plantImage"
+        app:layout_constraintVertical_bias="0.134" />
+</androidx.constraintlayout.widget.ConstraintLayout>

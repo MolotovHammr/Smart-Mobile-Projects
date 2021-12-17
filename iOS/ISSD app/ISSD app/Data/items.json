@@ -1,0 +1,92 @@
+[  
+    {
+         "id": 1,
+         "Omschrijving": "Canon Fotocamera Eos 500D Digital",
+         "Aantal": "1",
+         "Barcode": "00007"
+     },
+     {
+         "id": 2,
+         "Omschrijving": "Velbon Statief EX - 440 / 540",
+         "Aantal": "1",
+         "Barcode": "00008"
+     },
+     {
+         "id": 3,
+         "Omschrijving": "Canon Flitser 580ex II",
+         "Aantal": "1",
+         "Barcode": "00012"
+     },
+     {
+         "id": 4,
+         "Omschrijving": "Canon Telelens EFS 55-250MM F/4-5.6 IS + 1X Lensdop",
+         "Aantal": "1",
+         "Barcode": "00013"
+     },
+     {
+         "id": 5,
+         "Omschrijving": "Canon Groothoeklens EF-S 10-22mm F/3.5-4.5",
+         "Aantal": "1",
+         "Barcode": "00014"
+     },
+     {
+         "id": 6,
+         "Omschrijving": "Canon Macrolens EF 50MM F/2.5 + Lensdoppen",
+         "Aantal": "1",
+         "Barcode": "00015"
+     },
+     {
+         "id": 7,
+         "Omschrijving": "Video Camera FULL-HD",
+         "Aantal": "1",
+         "Barcode": "00017"
+     },
+     {
+         "id": 8,
+         "Omschrijving": "Beamers Infocus, sharp,toshiba",
+         "Aantal": "1",
+         "Barcode": "00018"
+     },
+     {
+         "id": 9,
+         "Omschrijving": "EdiRol Audio Capture UA-25  + usbkabel",
+         "Aantal": "1",
+         "Barcode": "00019"
+     },
+     {
+         "id": 10,
+         "Omschrijving": "Remote Gamelab TV Philips",
+         "Aantal": "1",
+         "Barcode": "00022"
+     },
+     {
+         "id": 11,
+         "Omschrijving": "Usb Verlengkabel",
+         "Aantal": "1",
+         "Barcode": "00036"
+     },
+     {
+         "id": 12,
+         "Omschrijving": "USB-A to USB-B cable (Printer)",
+         "Aantal": "1",
+         "Barcode": "00037"
+     },
+     {
+         "id": 13,
+         "Omschrijving": "VGA Kabel",
+         "Aantal": "1",
+         "Barcode": "00038"
+     },
+     {
+         "id": 14,
+         "Omschrijving": "Laser pointer Kensington",
+         "Aantal": "1",
+         "Barcode": "00042"
+     },
+     {
+         "id": 15,
+         "Omschrijving": "Stekkerdoos",
+         "Aantal": "1",
+         "Barcode": "00043"
+     }
+]
